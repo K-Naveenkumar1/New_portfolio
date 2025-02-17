@@ -1,0 +1,68 @@
+.landing{
+    position: relative;
+    display: flex;
+    height: 120vh;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      height: auto;
+      padding: 20px;
+    }
+    
+
+    img{
+      object-fit: cover;
+    }
+    
+    .sliderContainer{
+      position: absolute;
+      top: calc(100vh - 350px);
+    }
+    
+    .slider{
+      position: relative;
+      white-space: nowrap;
+    }
+    
+    .slider p{
+      position: relative;
+      margin: 0px;
+      color: white;
+      font-size: 230px;
+      font-weight: 400;
+      padding-right: 50px;
+      padding-top: 60px;
+    }
+    
+    .slider p:nth-of-type(2){
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+  
+    .description{
+      position: absolute;
+      top: 22%;
+      left: 69%;
+      color: white;
+      font-size: 24px;
+      font-weight: 300;
+      p{
+        margin: 0px;
+        margin-bottom: 10px;
+        font-weight: 380;
+        font-size: 35px;
+      }
+      svg{
+        transform: scale(2.5);
+        margin-bottom: 100px;
+      }
+    }
+    .location{
+      display: flex;
+      height: 40px;
+      width: 70px;
+
+    }
+  }
+
