@@ -4,8 +4,16 @@
     justify-content: space-between;
     font-size: 12px;
     gap: 50px;
-    .a{
-        text-decoration: none;
-        background-color: white;
-    }
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
 }

@@ -6,11 +6,12 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
+import { neue_montreal } from '../../../_fonts';
 
 const projects = [
   {
     title: "SISTK Technical Club",
-    src: "SISTK-Technical-Club-Home-12-11-2024_05_06_PM.png",
+    src: "",
     color: "#000000"
   },
   {
@@ -97,7 +98,7 @@ export default function Home() {
                 return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
                     <Image 
                     src={`/images/${src}`}
-                    width={300}
+                    width={200}
                     height={0}
                     alt="image"
                     />

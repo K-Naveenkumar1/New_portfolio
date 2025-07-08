@@ -49,9 +49,9 @@ export default function index() {
         offset: ["start end", "end start"]
     })
 
-    const x1 = useTransform(scrollYProgress, [0, 1], [0, 150])
-    const x2 = useTransform(scrollYProgress, [0, 1], [0, -150])
-    const height = useTransform(scrollYProgress, [0, 0.9], [50, 0])
+    const x1 = useTransform(scrollYProgress, [0, 1], [0, 130])
+    const x2 = useTransform(scrollYProgress, [0, 1], [0, -130])
+    const height = useTransform(scrollYProgress, [0, 0.9], [40, 0])
 
     return (
         <div ref={container} className={styles.slidingImages}>
